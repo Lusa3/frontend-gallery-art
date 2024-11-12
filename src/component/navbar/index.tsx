@@ -1,3 +1,7 @@
+
+import { Button } from '@/components/ui/button'
+import { ShoppingCart } from 'lucide-react'
+
 import React from 'react'
 export const NavigationBar: React.FC = () => {
     return (
@@ -10,6 +14,13 @@ export const NavigationBar: React.FC = () => {
             <div className=' flex '>
                 <p>GALLERYART</p>
             </div>
+            <div>
+                <ShoppingCart />
+            </div>
+            <div>
+          <Button>Button</Button>
+            </div>
+            
         </div>
     )
 }
